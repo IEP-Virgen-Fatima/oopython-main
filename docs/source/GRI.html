@@ -1,0 +1,557 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GRI package &#8212; OOPython  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">OOPython  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">GRI package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="gri-package">
+<h1>GRI package<a class="headerlink" href="#gri-package" title="Permalink to this headline">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-GRI.GildedRoseInn">
+<span id="gri-gildedroseinn-module"></span><h2>GRI.GildedRoseInn module<a class="headerlink" href="#module-GRI.GildedRoseInn" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.GildedRoseInn.</span></span><span class="sig-name descname"><span class="pre">GildedRoseInn</span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>GildedRose Inn shop.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.SIZE">
+<span class="sig-name descname"><span class="pre">SIZE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">42</span></em><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shop size.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new GildedRose Inn shop instance (empty).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exports shop as a string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(str) a multiline string representing the shop (one item per line)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.add_item_in_slot">
+<span class="sig-name descname"><span class="pre">add_item_in_slot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><span class="pre">GRI.item.Item</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">slot</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.add_item_in_slot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds item in given slot.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>item</strong> – (Item) item to add</p></li>
+<li><p><strong>slot</strong> – (int) slot number</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(bool) True if item has been added in slot, False if it wasn’t possible</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.add_item">
+<span class="sig-name descname"><span class="pre">add_item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><span class="pre">GRI.item.Item</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.add_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds item, in first empty slot.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>item</strong> – (Item) item to add</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(bool) True if item has been added in slot, False if not empty slot was found</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn._is_slot_empty">
+<span class="sig-name descname"><span class="pre">_is_slot_empty</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">slot</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn._is_slot_empty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if a given slot is empty.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>slot</strong> – (int) slot number</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(bool) True if slot is empty, False else</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.GildedRoseInn.GildedRoseInn.update_items">
+<span class="sig-name descname"><span class="pre">update_items</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.GildedRoseInn.GildedRoseInn.update_items" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates all items.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.agedbrieitem">
+<span id="gri-agedbrieitem-module"></span><h2>GRI.agedbrieitem module<a class="headerlink" href="#module-GRI.agedbrieitem" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.agedbrieitem.AgedBrieItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.agedbrieitem.</span></span><span class="sig-name descname"><span class="pre">AgedBrieItem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.agedbrieitem.AgedBrieItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">GRI.item.Item</span></code></a></p>
+<p>Aged brie item.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.agedbrieitem.AgedBrieItem.NAME">
+<span class="sig-name descname"><span class="pre">NAME</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Aged</span> <span class="pre">Brie'</span></em><a class="headerlink" href="#GRI.agedbrieitem.AgedBrieItem.NAME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Item name for Aged Brie.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.agedbrieitem.AgedBrieItem.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.agedbrieitem.AgedBrieItem.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new aged brie item instance, with given properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sell_in</strong> – (int) sell in</p></li>
+<li><p><strong>quality</strong> – (int) quality</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.agedbrieitem.AgedBrieItem._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.agedbrieitem.AgedBrieItem._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.agedbrieitem.AgedBrieItem._update_quality">
+<span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.agedbrieitem.AgedBrieItem._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.backstagepassitem">
+<span id="gri-backstagepassitem-module"></span><h2>GRI.backstagepassitem module<a class="headerlink" href="#module-GRI.backstagepassitem" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.backstagepassitem.</span></span><span class="sig-name descname"><span class="pre">BackstagePassItem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">GRI.item.Item</span></code></a></p>
+<p>Backstage pass item.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem.NAME">
+<span class="sig-name descname"><span class="pre">NAME</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Backstage</span> <span class="pre">Pass'</span></em><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem.NAME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Item name for Backstage Pass.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem.FIRST_THRESHOLD">
+<span class="sig-name descname"><span class="pre">FIRST_THRESHOLD</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem.FIRST_THRESHOLD" title="Permalink to this definition">¶</a></dt>
+<dd><p>First threshold (in days).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem.SECOND_THRESHOLD">
+<span class="sig-name descname"><span class="pre">SECOND_THRESHOLD</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem.SECOND_THRESHOLD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Second threshold (in days).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new backstage pass item instance, with given properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sell_in</strong> – (int) sell in</p></li>
+<li><p><strong>quality</strong> – (int) quality</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.backstagepassitem.BackstagePassItem._update_quality">
+<span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.backstagepassitem.BackstagePassItem._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.commonitem">
+<span id="gri-commonitem-module"></span><h2>GRI.commonitem module<a class="headerlink" href="#module-GRI.commonitem" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.commonitem.CommonItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.commonitem.</span></span><span class="sig-name descname"><span class="pre">CommonItem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.commonitem.CommonItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">GRI.item.Item</span></code></a></p>
+<p>Common item.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.commonitem.CommonItem.NAME">
+<span class="sig-name descname"><span class="pre">NAME</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Common'</span></em><a class="headerlink" href="#GRI.commonitem.CommonItem.NAME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Item name for Common item.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.commonitem.CommonItem.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.commonitem.CommonItem.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new common item instance, with given properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sell_in</strong> – (int) sell in</p></li>
+<li><p><strong>quality</strong> – (int) quality</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.commonitem.CommonItem._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.commonitem.CommonItem._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.commonitem.CommonItem._update_quality">
+<span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.commonitem.CommonItem._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.conjureditem">
+<span id="gri-conjureditem-module"></span><h2>GRI.conjureditem module<a class="headerlink" href="#module-GRI.conjureditem" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.conjureditem.ConjuredItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.conjureditem.</span></span><span class="sig-name descname"><span class="pre">ConjuredItem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.conjureditem.ConjuredItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">GRI.item.Item</span></code></a></p>
+<p>Conjured item.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.conjureditem.ConjuredItem.NAME">
+<span class="sig-name descname"><span class="pre">NAME</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Conjured'</span></em><a class="headerlink" href="#GRI.conjureditem.ConjuredItem.NAME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Item name for Conjured.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.conjureditem.ConjuredItem.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.conjureditem.ConjuredItem.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new conjured item instance, with given properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sell_in</strong> – (int) sell in</p></li>
+<li><p><strong>quality</strong> – (int) quality</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.conjureditem.ConjuredItem._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.conjureditem.ConjuredItem._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.conjureditem.ConjuredItem._update_quality">
+<span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.conjureditem.ConjuredItem._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.item">
+<span id="gri-item-module"></span><h2>GRI.item module<a class="headerlink" href="#module-GRI.item" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.item.Item">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.item.</span></span><span class="sig-name descname"><span class="pre">Item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">abstract</span> <span class="pre">class</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.item.Item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.item.Item.MIN_QUALITY">
+<span class="sig-name descname"><span class="pre">MIN_QUALITY</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#GRI.item.Item.MIN_QUALITY" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quality lower bound.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.item.Item.MAX_QUALITY">
+<span class="sig-name descname"><span class="pre">MAX_QUALITY</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">50</span></em><a class="headerlink" href="#GRI.item.Item.MAX_QUALITY" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quality upper bound.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sell_in</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GRI.item.Item.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new item instance, with given properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – (str) name</p></li>
+<li><p><strong>sell_in</strong> – (int) number of days remaining before expiration</p></li>
+<li><p><strong>quality</strong> – (int) quality</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#GRI.item.Item.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exports item as a string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(str) a string representing the item</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="GRI.item.Item.name">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#GRI.item.Item.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(str) name</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="GRI.item.Item.sell_in">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">sell_in</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#GRI.item.Item.sell_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns sell in.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) sell in</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="GRI.item.Item.quality">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">quality</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#GRI.item.Item.quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) quality</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item.has_expired">
+<span class="sig-name descname"><span class="pre">has_expired</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#GRI.item.Item.has_expired" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if item has expired.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(bool) True if item has expired, False else</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item.update">
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.item.Item.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item._update_quality">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.item.Item._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.item.Item._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.item.Item._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item._update_sell_in">
+<span class="sig-name descname"><span class="pre">_update_sell_in</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.item.Item._update_sell_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item sell in.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.item.Item._ensure_quality_remains_in_bounds">
+<span class="sig-name descname"><span class="pre">_ensure_quality_remains_in_bounds</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.item.Item._ensure_quality_remains_in_bounds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ensures quality remains in bounds.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI.sulfurasitem">
+<span id="gri-sulfurasitem-module"></span><h2>GRI.sulfurasitem module<a class="headerlink" href="#module-GRI.sulfurasitem" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GRI.sulfurasitem.</span></span><span class="sig-name descname"><span class="pre">SulfurasItem</span></span><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#GRI.item.Item" title="GRI.item.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">GRI.item.Item</span></code></a></p>
+<p>Sulfuras item.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem.NAME">
+<span class="sig-name descname"><span class="pre">NAME</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Sulfuras'</span></em><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem.NAME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Item name for Sulfuras.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem.SELL_IN">
+<span class="sig-name descname"><span class="pre">SELL_IN</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem.SELL_IN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sell in (sulfuras nevers expires).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem.QUALITY">
+<span class="sig-name descname"><span class="pre">QUALITY</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">80</span></em><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem.QUALITY" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quality (sulfuras is legendary).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new sulfuras item instance.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem._abc_impl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem.update">
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GRI.sulfurasitem.SulfurasItem._update_quality">
+<span class="sig-name descname"><span class="pre">_update_quality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#GRI.sulfurasitem.SulfurasItem._update_quality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates item quality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GRI">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GRI" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">OOPython  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">GRI package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, S.Jean.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    </div>
+  </body>
+</html>

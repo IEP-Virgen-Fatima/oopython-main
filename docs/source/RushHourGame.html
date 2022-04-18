@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>RushHourGame package &#8212; OOPython  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">OOPython  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">RushHourGame package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="rushhourgame-package">
+<h1>RushHourGame package<a class="headerlink" href="#rushhourgame-package" title="Permalink to this headline">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-RushHourGame.color">
+<span id="rushhourgame-color-module"></span><h2>RushHourGame.color module<a class="headerlink" href="#module-RushHourGame.color" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.color.Color">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.color.</span></span><span class="sig-name descname"><span class="pre">Color</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.color.Color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>Enumeration of colors.
+The character associated to each color is used to export color as string.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.RED">
+<span class="sig-name descname"><span class="pre">RED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'0'</span></em><a class="headerlink" href="#RushHourGame.color.Color.RED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.GREEN">
+<span class="sig-name descname"><span class="pre">GREEN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'1'</span></em><a class="headerlink" href="#RushHourGame.color.Color.GREEN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.LIGHT_GREEN">
+<span class="sig-name descname"><span class="pre">LIGHT_GREEN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'2'</span></em><a class="headerlink" href="#RushHourGame.color.Color.LIGHT_GREEN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.DARK_GREEN">
+<span class="sig-name descname"><span class="pre">DARK_GREEN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'3'</span></em><a class="headerlink" href="#RushHourGame.color.Color.DARK_GREEN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.BLUE">
+<span class="sig-name descname"><span class="pre">BLUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'4'</span></em><a class="headerlink" href="#RushHourGame.color.Color.BLUE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.LIGHT_BLUE">
+<span class="sig-name descname"><span class="pre">LIGHT_BLUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'5'</span></em><a class="headerlink" href="#RushHourGame.color.Color.LIGHT_BLUE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.DARK_BLUE">
+<span class="sig-name descname"><span class="pre">DARK_BLUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'6'</span></em><a class="headerlink" href="#RushHourGame.color.Color.DARK_BLUE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.PURPLE">
+<span class="sig-name descname"><span class="pre">PURPLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'7'</span></em><a class="headerlink" href="#RushHourGame.color.Color.PURPLE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.LIGHT_PURPLE">
+<span class="sig-name descname"><span class="pre">LIGHT_PURPLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'8'</span></em><a class="headerlink" href="#RushHourGame.color.Color.LIGHT_PURPLE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.YELLOW">
+<span class="sig-name descname"><span class="pre">YELLOW</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'9'</span></em><a class="headerlink" href="#RushHourGame.color.Color.YELLOW" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.LIGHT_YELLOW">
+<span class="sig-name descname"><span class="pre">LIGHT_YELLOW</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'A'</span></em><a class="headerlink" href="#RushHourGame.color.Color.LIGHT_YELLOW" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.BROWN">
+<span class="sig-name descname"><span class="pre">BROWN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'B'</span></em><a class="headerlink" href="#RushHourGame.color.Color.BROWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.LIGHT_BROWN">
+<span class="sig-name descname"><span class="pre">LIGHT_BROWN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'C'</span></em><a class="headerlink" href="#RushHourGame.color.Color.LIGHT_BROWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.BLACK">
+<span class="sig-name descname"><span class="pre">BLACK</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'D'</span></em><a class="headerlink" href="#RushHourGame.color.Color.BLACK" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.ORANGE">
+<span class="sig-name descname"><span class="pre">ORANGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'E'</span></em><a class="headerlink" href="#RushHourGame.color.Color.ORANGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.PINK">
+<span class="sig-name descname"><span class="pre">PINK</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'F'</span></em><a class="headerlink" href="#RushHourGame.color.Color.PINK" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.get_random_color">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_random_color</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.color.Color" title="RushHourGame.color.Color"><span class="pre">RushHourGame.color.Color</span></a></span></span><a class="headerlink" href="#RushHourGame.color.Color.get_random_color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a randomly chosen color.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Color) a randomly chosen color</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.color.Color.value_of">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value_of</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color_string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.color.Color" title="RushHourGame.color.Color"><span class="pre">RushHourGame.color.Color</span></a></span></span><a class="headerlink" href="#RushHourGame.color.Color.value_of" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a color from its string representation (supposed valid).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>color_string</strong> – (str) color string representation</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(Color) parsed color</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.consoledisplay">
+<span id="rushhourgame-consoledisplay-module"></span><h2>RushHourGame.consoledisplay module<a class="headerlink" href="#module-RushHourGame.consoledisplay" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.consoledisplay.</span></span><span class="sig-name descname"><span class="pre">ConsoleDisplay</span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#RushHourGame.display.Display" title="RushHourGame.display.Display"><code class="xref py py-class docutils literal notranslate"><span class="pre">RushHourGame.display.Display</span></code></a></p>
+<p>Console implementation of Display interface.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay.notify_new_turn">
+<span class="sig-name descname"><span class="pre">notify_new_turn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">turn_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay.notify_new_turn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a new turn is being played.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>turn_count</strong> – (int) turn count</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay.display_board">
+<span class="sig-name descname"><span class="pre">display_board</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vehicles</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#RushHourGame.vehicle.Vehicle" title="RushHourGame.vehicle.Vehicle"><span class="pre">RushHourGame.vehicle.Vehicle</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay.display_board" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays board.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>vehicles</strong> – (list(vehicles)) vehicles on board</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay.notify_game_is_over">
+<span class="sig-name descname"><span class="pre">notify_game_is_over</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">turn_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay.notify_game_is_over" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that game is over.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>turn_count</strong> – turn count</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay.ask_for_move">
+<span class="sig-name descname"><span class="pre">ask_for_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay.ask_for_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a move is requested by the player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.consoledisplay.ConsoleDisplay.notify_move">
+<span class="sig-name descname"><span class="pre">notify_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">RushHourGame.move.Move</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.consoledisplay.ConsoleDisplay.notify_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a move has been given by the player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>move</strong> – move</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.direction">
+<span id="rushhourgame-direction-module"></span><h2>RushHourGame.direction module<a class="headerlink" href="#module-RushHourGame.direction" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.direction.</span></span><span class="sig-name descname"><span class="pre">Direction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.direction.Direction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>Enumeration of directions.
+The couple of ints associated to each direction is used to compute neighbouring.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.N">
+<span class="sig-name descname"><span class="pre">N</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">(-1,</span> <span class="pre">0)</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.N" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.S">
+<span class="sig-name descname"><span class="pre">S</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">(1,</span> <span class="pre">0)</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.S" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.W">
+<span class="sig-name descname"><span class="pre">W</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">(0,</span> <span class="pre">-1)</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.W" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.E">
+<span class="sig-name descname"><span class="pre">E</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">(0,</span> <span class="pre">1)</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.E" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.row_offset">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">row_offset</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.row_offset" title="Permalink to this definition">¶</a></dt>
+<dd><p>getter property for row offset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) row offset value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.column_offset">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">column_offset</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#RushHourGame.direction.Direction.column_offset" title="Permalink to this definition">¶</a></dt>
+<dd><p>getter property for column offset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) column offset value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.get_opposite">
+<span class="sig-name descname"><span class="pre">get_opposite</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">RushHourGame.direction.Direction</span></a></span></span><a class="headerlink" href="#RushHourGame.direction.Direction.get_opposite" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns opposite direction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Direction) opposite direction</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.get_random_direction">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_random_direction</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">RushHourGame.direction.Direction</span></a></span></span><a class="headerlink" href="#RushHourGame.direction.Direction.get_random_direction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a randomly chosen direction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Direction) a randomly chosen direction</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.direction.Direction.value_of">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value_of</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">direction_string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">RushHourGame.direction.Direction</span></a></span></span><a class="headerlink" href="#RushHourGame.direction.Direction.value_of" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a direction from its string representation (supposed valid).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>direction_string</strong> – (str) direction string representation</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(Direction) parsed direction</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.display">
+<span id="rushhourgame-display-module"></span><h2>RushHourGame.display module<a class="headerlink" href="#module-RushHourGame.display" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.display.Display">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.display.</span></span><span class="sig-name descname"><span class="pre">Display</span></span><a class="headerlink" href="#RushHourGame.display.Display" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Interface for game events display.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.display.Display.notify_new_turn">
+<span class="sig-name descname"><span class="pre">notify_new_turn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">turn_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.display.Display.notify_new_turn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a new turn is being played.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>turn_count</strong> – (int) turn count</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.display.Display.display_board">
+<span class="sig-name descname"><span class="pre">display_board</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vehicles</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#RushHourGame.vehicle.Vehicle" title="RushHourGame.vehicle.Vehicle"><span class="pre">vehicle.Vehicle</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.display.Display.display_board" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays board.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>vehicles</strong> – (list(vehicles)) vehicles on board</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.display.Display.notify_game_is_over">
+<span class="sig-name descname"><span class="pre">notify_game_is_over</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">turn_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.display.Display.notify_game_is_over" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that game is over.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>turn_count</strong> – turn count</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.display.Display.ask_for_move">
+<span class="sig-name descname"><span class="pre">ask_for_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.display.Display.ask_for_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a move is requested by the player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.display.Display.notify_move">
+<span class="sig-name descname"><span class="pre">notify_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">move.Move</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.display.Display.notify_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Notifies that a move has been given by the player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>move</strong> – move</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.input">
+<span id="rushhourgame-input-module"></span><h2>RushHourGame.input module<a class="headerlink" href="#module-RushHourGame.input" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.input.Input">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.input.</span></span><span class="sig-name descname"><span class="pre">Input</span></span><a class="headerlink" href="#RushHourGame.input.Input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Interface for player input</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.input.Input.get_move">
+<span class="sig-name descname"><span class="pre">get_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">move.Move</span></a></span></span><a class="headerlink" href="#RushHourGame.input.Input.get_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requests a move from player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Move) move given by the player</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.move">
+<span id="rushhourgame-move-module"></span><h2>RushHourGame.move module<a class="headerlink" href="#module-RushHourGame.move" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.move.Move">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.move.</span></span><span class="sig-name descname"><span class="pre">Move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span> <span class="pre">+</span> <span class="pre">direction</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.move.Move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.move.Move.position">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">position</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></em><a class="headerlink" href="#RushHourGame.move.Move.position" title="Permalink to this definition">¶</a></dt>
+<dd><p>getter property for position.
+:return: (Position) position value</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.move.Move.direction">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">direction</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">direction.Direction</span></a></em><a class="headerlink" href="#RushHourGame.move.Move.direction" title="Permalink to this definition">¶</a></dt>
+<dd><p>getter property for direction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Direction) direction value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.move.Move.get_random_move">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_random_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">RushHourGame.move.Move</span></a></span></span><a class="headerlink" href="#RushHourGame.move.Move.get_random_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a randomly chosen move.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Move) a randomly chosen move</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.move.Move.value_of">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value_of</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move_string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">RushHourGame.move.Move</span></a></span></span><a class="headerlink" href="#RushHourGame.move.Move.value_of" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a move from its string representation (supposed valid).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>move_string</strong> – (str) move string representation</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(Move) parsed move</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.position">
+<span id="rushhourgame-position-module"></span><h2>RushHourGame.position module<a class="headerlink" href="#module-RushHourGame.position" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.position.Position">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.position.</span></span><span class="sig-name descname"><span class="pre">Position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">row</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.position.Position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Position (row / column).</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.position.Position.row">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">row</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#RushHourGame.position.Position.row" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns row.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) row value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.position.Position.column">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">column</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#RushHourGame.position.Position.column" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns column.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) column value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.position.Position.get_neighbour">
+<span class="sig-name descname"><span class="pre">get_neighbour</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">direction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">direction.Direction</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">RushHourGame.position.Position</span></a></span></span><a class="headerlink" href="#RushHourGame.position.Position.get_neighbour" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns neighbour position, for a given direction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>direction</strong> – (Direction) direction</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(Position) neighbour position in the given direction</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.position.Position.get_random_position">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_random_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_row</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">RushHourGame.position.Position</span></a></span></span><a class="headerlink" href="#RushHourGame.position.Position.get_random_position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a randomly chosen direction, within given bounds.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Position) a randomly chosen position, within [0, max_row[ and [0, max_column[</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.position.Position.value_of">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value_of</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position_string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">RushHourGame.position.Position</span></a></span></span><a class="headerlink" href="#RushHourGame.position.Position.value_of" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a position from its string representation (supposed valid).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>position_string</strong> – (str) position string representation</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(Position) parsed position</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.randominput">
+<span id="rushhourgame-randominput-module"></span><h2>RushHourGame.randominput module<a class="headerlink" href="#module-RushHourGame.randominput" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.randominput.RandomInput">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.randominput.</span></span><span class="sig-name descname"><span class="pre">RandomInput</span></span><a class="headerlink" href="#RushHourGame.randominput.RandomInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">input.Input</span></code></p>
+<p>Random implementation of Input interface.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.randominput.RandomInput.get_move">
+<span class="sig-name descname"><span class="pre">get_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">move.Move</span></a></span></span><a class="headerlink" href="#RushHourGame.randominput.RandomInput.get_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requests a move from player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Move) move given by the player</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.rushhourgame">
+<span id="rushhourgame-rushhourgame-module"></span><h2>RushHourGame.rushhourgame module<a class="headerlink" href="#module-RushHourGame.rushhourgame" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgame.RushHourGame">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.rushhourgame.</span></span><span class="sig-name descname"><span class="pre">RushHourGame</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vehicles</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#RushHourGame.vehicle.Vehicle" title="RushHourGame.vehicle.Vehicle"><span class="pre">vehicle.Vehicle</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">game_input</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.input.Input" title="RushHourGame.input.Input"><span class="pre">input.Input</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">game_display</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.display.Display" title="RushHourGame.display.Display"><span class="pre">display.Display</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.rushhourgame.RushHourGame" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Rush hour game.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgame.RushHourGame.is_position_out_of_bounds">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_position_out_of_bounds</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#RushHourGame.rushhourgame.RushHourGame.is_position_out_of_bounds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if a given position is out of board.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>position</strong> – (Position) position</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(bool) True if position is out of board, False else</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgame.RushHourGame.play">
+<span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.rushhourgame.RushHourGame.play" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plays game.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.rushhourgameconstants">
+<span id="rushhourgame-rushhourgameconstants-module"></span><h2>RushHourGame.rushhourgameconstants module<a class="headerlink" href="#module-RushHourGame.rushhourgameconstants" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgameconstants.RushHourGameConstants">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.rushhourgameconstants.</span></span><span class="sig-name descname"><span class="pre">RushHourGameConstants</span></span><a class="headerlink" href="#RushHourGame.rushhourgameconstants.RushHourGameConstants" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Rush hour game constants.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgameconstants.RushHourGameConstants.ROWS">
+<span class="sig-name descname"><span class="pre">ROWS</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#RushHourGame.rushhourgameconstants.RushHourGameConstants.ROWS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Row count (int).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgameconstants.RushHourGameConstants.COLUMNS">
+<span class="sig-name descname"><span class="pre">COLUMNS</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#RushHourGame.rushhourgameconstants.RushHourGameConstants.COLUMNS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Column count (int).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="RushHourGame.rushhourgameconstants.RushHourGameConstants.EXIT_POSITION">
+<span class="sig-name descname"><span class="pre">EXIT_POSITION</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Final</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;position.Position</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#RushHourGame.rushhourgameconstants.RushHourGameConstants.EXIT_POSITION" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exit position (Position).</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.userinput">
+<span id="rushhourgame-userinput-module"></span><h2>RushHourGame.userinput module<a class="headerlink" href="#module-RushHourGame.userinput" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.userinput.UserInput">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.userinput.</span></span><span class="sig-name descname"><span class="pre">UserInput</span></span><a class="headerlink" href="#RushHourGame.userinput.UserInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">input.Input</span></code></p>
+<p>Console implementation of Input interface.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.userinput.UserInput.get_move">
+<span class="sig-name descname"><span class="pre">get_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#RushHourGame.move.Move" title="RushHourGame.move.Move"><span class="pre">move.Move</span></a></span></span><a class="headerlink" href="#RushHourGame.userinput.UserInput.get_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requests a move from player.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Move) move given by the player</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame.vehicle">
+<span id="rushhourgame-vehicle-module"></span><h2>RushHourGame.vehicle module<a class="headerlink" href="#module-RushHourGame.vehicle" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">RushHourGame.vehicle.</span></span><span class="sig-name descname"><span class="pre">Vehicle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.color.Color" title="RushHourGame.color.Color"><span class="pre">color.Color</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">direction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">direction.Direction</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#RushHourGame.vehicle.Vehicle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Vehicle (head position, heading direction, size, color).</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.head_position">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">head_position</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></em><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.head_position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns head position.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Position) head position</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.rear_position">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rear_position</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></em><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.rear_position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns rear position.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(Position) rear position</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.direction">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">direction</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">direction.Direction</span></a></em><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.direction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns heading direction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(direction) heading direction</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.color">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">color</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#RushHourGame.color.Color" title="RushHourGame.color.Color"><span class="pre">color.Color</span></a></em><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns color.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(color) color</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.size">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">size</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.size" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns size.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>(int) size</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.shift">
+<span class="sig-name descname"><span class="pre">shift</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">direction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.direction.Direction" title="RushHourGame.direction.Direction"><span class="pre">direction.Direction</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.shift" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shifts vehicle in a direction (one position). Shifting is supposed to be valid.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>direction</strong> – (Direction) direction</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(None)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="RushHourGame.vehicle.Vehicle.is_at">
+<span class="sig-name descname"><span class="pre">is_at</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#RushHourGame.position.Position" title="RushHourGame.position.Position"><span class="pre">position.Position</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#RushHourGame.vehicle.Vehicle.is_at" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if vehicle occupies a given position.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>position</strong> – (Position) position</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>(bool) True if vehicle occupies position, False else</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-RushHourGame">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-RushHourGame" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">OOPython  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">RushHourGame package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, S.Jean.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    </div>
+  </body>
+</html>
